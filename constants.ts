@@ -11,6 +11,7 @@ export const COMMITTEE: CommitteeMember[] = [
   { id: 5, name: "Marios Conadaris", role: "Member", category: 'Member' },
   { id: 6, name: "Pat Kekewich", role: "Member", category: 'Member' },
   { id: 7, name: "Shaun Wormington", role: "Member", category: 'Member' },
+  { id: 15, name: "Benj Hunt", role: "Member", category: 'Member' },
   
   // Regional
   { id: 8, name: "Kathy Jackson", role: "Pietermaritzburg", category: 'Regional' },
@@ -24,6 +25,7 @@ export const COMMITTEE: CommitteeMember[] = [
 
   // Life Members
   { id: 14, name: "David Barrow", role: "Life Member", category: 'Life Member' },
+  { id: 16, name: "Simon Malone", role: "Life Member", category: 'Life Member' },
 ];
 
 export const FIXTURES: Fixture[] = [

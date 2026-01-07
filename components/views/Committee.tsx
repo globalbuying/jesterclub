@@ -23,49 +23,69 @@ export const Committee: React.FC = () => {
       </div>
 
       {/* Officers Section */}
-      <section className="mb-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {officers.map(member => <MemberCard key={member.id} member={member} />)}
+      <section className="mb-20">
+        <div className="flex flex-wrap justify-center gap-6">
+            {officers.map(member => (
+              <div key={member.id} className="w-full sm:w-64">
+                <MemberCard member={member} />
+              </div>
+            ))}
         </div>
       </section>
 
       {/* General Members Section */}
-      <section className="mb-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {members.map(member => <MemberCard key={member.id} member={member} />)}
+      <section className="mb-20">
+        <div className="flex flex-wrap justify-center gap-6">
+            {members.map(member => (
+              <div key={member.id} className="w-full sm:w-64">
+                <MemberCard member={member} />
+              </div>
+            ))}
         </div>
       </section>
 
       {/* Regional Section */}
-      <section className="mb-16">
-        <div className="flex items-center justify-center gap-3 mb-8 border-b border-gray-200 pb-2 text-center">
+      <section className="mb-20">
+        <div className="flex items-center justify-center gap-3 mb-12 border-b border-gray-100 pb-4 text-center max-w-2xl mx-auto">
             <MapPin size={24} className="text-oxford" />
             <h3 className="text-2xl font-serif text-oxford">Regional Representatives</h3>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            {regional.map(member => <MemberCard key={member.id} member={member} />)}
+        <div className="flex flex-wrap justify-center gap-6">
+            {regional.map(member => (
+              <div key={member.id} className="w-full sm:w-64">
+                <MemberCard member={member} />
+              </div>
+            ))}
         </div>
       </section>
 
-      {/* Other Reps & Life Members - Centered and Stacked */}
-      <div className="flex flex-col items-center gap-12">
-          <section className="w-full max-w-md">
-            <div className="flex items-center justify-center gap-3 mb-8 border-b border-gray-200 pb-2 text-center">
+      {/* Other Reps & Life Members */}
+      <div className="flex flex-col items-center gap-20">
+          <section className="w-full">
+            <div className="flex items-center justify-center gap-3 mb-12 border-b border-gray-100 pb-4 text-center max-w-2xl mx-auto">
                 <Award size={24} className="text-oxford" />
                 <h3 className="text-2xl font-serif text-oxford">International Representative</h3>
             </div>
-            <div className="grid grid-cols-1 gap-6">
-                {representatives.map(member => <MemberCard key={member.id} member={member} />)}
+            <div className="flex flex-wrap justify-center gap-6">
+                {representatives.map(member => (
+                  <div key={member.id} className="w-full sm:w-64">
+                    <MemberCard member={member} />
+                  </div>
+                ))}
             </div>
           </section>
 
-          <section className="w-full max-w-md">
-            <div className="flex items-center justify-center gap-3 mb-8 border-b border-gray-200 pb-2 text-center">
+          <section className="w-full">
+            <div className="flex items-center justify-center gap-3 mb-12 border-b border-gray-100 pb-4 text-center max-w-2xl mx-auto">
                 <Crown size={24} className="text-yellow-600" />
                 <h3 className="text-2xl font-serif text-oxford">Life Members</h3>
             </div>
-            <div className="grid grid-cols-1 gap-6">
-                {lifeMembers.map(member => <MemberCard key={member.id} member={member} />)}
+            <div className="flex flex-wrap justify-center gap-6">
+                {lifeMembers.map(member => (
+                  <div key={member.id} className="w-full sm:w-64">
+                    <MemberCard member={member} />
+                  </div>
+                ))}
             </div>
           </section>
       </div>
