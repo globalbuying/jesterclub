@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Scroll, Clock, Quote, BookOpen, ChevronDown, ChevronUp } from 'lucide-react';
+import { Scroll, Clock, Quote, BookOpen, ChevronDown, ChevronUp, Flame } from 'lucide-react';
 import { Logo } from '../Logo';
 
 export const History: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isPoemExpanded, setIsPoemExpanded] = useState(false);
 
   return (
     <div className="container mx-auto px-6 py-16 animate-fade-in max-w-4xl">
@@ -17,7 +18,7 @@ export const History: React.FC = () => {
         </div>
       </div>
 
-      <div className="bg-white shadow-xl p-10 border-t-4 border-oxford rounded-b-lg">
+      <div className="bg-white shadow-xl p-10 border-t-4 border-oxford rounded-b-lg mb-16">
         {/* Existing Content - Gareth Quarry */}
         <div className="float-right ml-8 mb-4 w-1/3">
              <img src="https://www.thejestersclub.org//wp-content/uploads/2014/08/JP35-19320301-1932-Cambridge-Univ-Fives-Team-Jock-Burnet-second-from-right.jpg" alt="Vintage Sport" className="rounded shadow-md grayscale hover:grayscale-0 transition-all duration-500" />
@@ -45,7 +46,7 @@ export const History: React.FC = () => {
         </div>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Jock played in the first recorded match (Rugby fives) in December 1928 against Alleyn Old Boys. Thereafter the Club grew rapidly and today numbers several thousand members with branches in the UK, USA, Canada, South Africa and Australia.
+            Jock played in the first recorded match (Rugby fives) in December 1928 against Alleyn Old Boys at Dulwich. Thereafter the Club grew rapidly and today numbers several thousand members with branches in the UK, USA, Canada, South Africa and Australia.
         </p>
 
         <h3 className="text-2xl font-serif text-oxford mt-12 mb-6 border-b border-gray-100 pb-2">Jock Burnet</h3>
@@ -138,10 +139,6 @@ export const History: React.FC = () => {
             <h4 className="text-xl font-serif text-oxford mt-8 mb-4">Recorded in the Times</h4>
             <p className="mb-6">
                 In those days, the results of many of the matches were faithfully recorded in a weekly column in The Times in part through the kind offices of an early Honorary Member F B Wilson (one of the great athletes of his day, said by some to be able to defeat anyone at Queen’s Club at table tennis using a bread knife for a racket!”); the Club in this column was often referred to as “the Ubiquitous Jesters”. Committee meetings had graduated from St Paul’s library to such diverse establishments as Queen’s, The Bath Club, the RAF Club, the Swan at Hammersmith and the Mayfair in Down Street (run by the celebrated boxer Bombardier Wells).
-            </p>
-
-            <p className="mb-6">
-                So many people contributed to the Club’s growth during this pre war period in different capacities and in different parts of the country that it is invidious to try to single out any of them. Nevertheless it was the early committee (Jock himself as Honorary Secretary, Tom Hayward as Honorary Treasurer and Frank Strawson) that masterminded and controlled this expansion. Jock remained Secretary until 1937 and again from 1947 to 1952 and by 1934 it was decided that they should have a permanent Chairman which role Frank Strawson occupied (with a break during the war) until his death in 1953.
             </p>
 
             {/* EXPANDABLE SECTION */}
@@ -303,7 +300,7 @@ export const History: React.FC = () => {
                 </p>
 
                 <p className="mb-6">
-                    Jock never wanted the Jesters to be important (nor hopefully has it become so) but it is a fitting tribute to him that his Club continues to be as relevant and influential today as it was in those early years. It is a badge of sportsmanship to be worn lightly but with pride and honour. As Jock recalled in one of his speeches, like Wodehouse’s Psmith before him, he had not let success spoil him; when asked what success he had had, he admitted “none at all”. We would disagree; the Jesters Club, amongst many of his other achievements, was and still is a great success of which he could be justly proud. Nevertheless, for him it was not about success; for him, the basis of his Club was epitomised by Hilaire Belloc “"There is nothing worth the wear of winning, but laughter and the love of friends".
+                    Jock never wanted the Jesters to be important (nor hopefully has it become so) but it is a tribute to him that his Club continues to be as relevant and influential today as it was in those early years. It is a badge of sportsmanship to be worn lightly but with pride and honour. As Jock recalled in one of his speeches, like Wodehouse’s Psmith before him, he had not let success spoil him; when asked what success he had had, he admitted “none at all”. We would disagree; the Jesters Club, amongst many of his other achievements, was and still is a great success of which he could be justly proud. Nevertheless, for him it was not about success; for him, the basis of his Club was epitomised by Hilaire Belloc “"There is nothing worth the wear of winning, but laughter and the love of friends".
                 </p>
                 
                 <p className="mb-12">
@@ -354,6 +351,84 @@ export const History: React.FC = () => {
 
         </article>
       </div>
+
+      {/* NEW POEM SECTION */}
+      <section className="bg-oxford/5 rounded-lg p-10 border-l-8 border-oxford shadow-lg mb-16 animate-fade-in">
+        <div className="flex items-center gap-3 mb-8">
+            <Flame className="text-oxford" size={28} />
+            <h2 className="text-3xl font-serif text-oxford uppercase tracking-wider">Play up! Play up! And play the game!</h2>
+        </div>
+        
+        <div className="text-center max-w-2xl mx-auto mb-10">
+            <p className="text-xl font-serif font-bold text-oxford mb-1 italic">Vitae Lampada</p>
+            <p className="text-sm font-bold uppercase tracking-widest text-cambridge">By Sir Henry Newbolt</p>
+        </div>
+
+        <div className={`transition-all duration-1000 overflow-hidden ${isPoemExpanded ? 'max-h-[5000px] opacity-100' : 'max-h-60 opacity-90 relative'}`}>
+            <div className="space-y-12 text-center font-serif text-xl leading-relaxed text-gray-800 italic">
+                <div className="stanza">
+                    <p>There's a breathless hush in the close to-night</p>
+                    <p>Ten to make and the match to win</p>
+                    <p>A bumping pitch and a blinding light,</p>
+                    <p>An hour to play, and the last man in.</p>
+                    <p>And it's not for the sake of a ribboned coat.</p>
+                    <p>Or the selfish hope of a season's fame,</p>
+                    <p>But his captain's hand on his shoulder smote</p>
+                    <p className="not-italic font-bold text-oxford mt-2 uppercase tracking-widest">"Play up! Play up! And play the game!"</p>
+                </div>
+
+                <div className="stanza">
+                    <p>The sand of the desert is sodden red-</p>
+                    <p>Red with the wreck of the square that broke</p>
+                    <p>The gatling's jammed and the colonel dead,</p>
+                    <p>And the regiment blind with dust and smoke.</p>
+                    <p>The river of death has brimmed its banks,</p>
+                    <p>And England's far and Honor a name, </p>
+                    <p>But the voice of a schoolboy rallies the ranks-</p>
+                    <p className="not-italic font-bold text-oxford mt-2 uppercase tracking-widest">"Play up! Play up! And play the game!"</p>
+                </div>
+
+                <div className="stanza">
+                    <p>This is the word that year by year,</p>
+                    <p>While in her place the school is set,</p>
+                    <p>Every one of her sons must hear,</p>
+                    <p>And none that hears it dare forget.</p>
+                    <p>This they all with joyful mind</p>
+                    <p>And bear through life like a torch in flame,</p>
+                    <p>falling fling to the host behind-</p>
+                    <p className="not-italic font-bold text-oxford mt-2 uppercase tracking-widest">"Play up! Play up! And play the game!"</p>
+                </div>
+            </div>
+
+            <div className={`mt-16 pt-8 border-t border-gray-200 text-left ${isPoemExpanded ? 'block' : 'hidden'}`}>
+                <h4 className="font-bold text-oxford uppercase tracking-widest text-sm mb-4">Notes:</h4>
+                <div className="text-sm text-gray-600 space-y-4 font-sans leading-relaxed">
+                    <p>It's not clear to me what the name of this poem is, it may be called "Play up! Play up! And play the game!" or Vitae Lampada ("Light of Life" which may be the name of a collection of poetry of which this is a part) - I'm just not sure.</p>
+                    <p>It was written by Sir Henry Newbolt (1862-1938), and is a smashing example of the British Empire at its finest, when, according to Wellington, colossal battles like the one fought at Waterloo was "...fought on the playing fields of Eton."</p>
+                    <p>Newbolt was a pupil at Clifton College (he won a scholarship) at the same time as General Haig (of World Ward I fame). There is still a Newbolt room in the College. The Close referred to in the poem are the playing fields at the College in front of the school Chapel and main school buildings. (Thanks to Gary Mendham for this information.)</p>
+                    <p>I found this on the Internet in a collection of games and tableaux by Baden-Powell, the Hero of Mafeking and founder of Boy Scouting. It's written with cricket in mind, but this obviously applies to rugby as well, wot? - Wes</p>
+                </div>
+            </div>
+
+            {!isPoemExpanded && (
+                <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-oxford/5 to-transparent pointer-events-none"></div>
+            )}
+        </div>
+
+        <div className="text-center mt-12">
+            <button 
+                onClick={() => setIsPoemExpanded(!isPoemExpanded)}
+                className="inline-flex items-center gap-2 bg-oxford text-white px-8 py-3 rounded-sm hover:bg-oxford-light transition-all font-serif font-bold tracking-widest uppercase text-sm shadow-md"
+            >
+                {isPoemExpanded ? (
+                    <>Show Less <ChevronUp size={18} /></>
+                ) : (
+                    <>Read Full Poem <ChevronDown size={18} /></>
+                )}
+            </button>
+        </div>
+      </section>
+
     </div>
   );
 };
