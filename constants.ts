@@ -87,6 +87,25 @@ export const MEMBERS: Member[] = [
 
 export const INITIAL_NEWS: NewsItem[] = [
   {
+    id: 4,
+    title: "A New Year's Message to the South African Jesters",
+    date: "2026-01-20",
+    author: "Paul Barrow, Chair SA Jesters",
+    content: `
+      <p class="mb-4">Dear Jesters</p>
+      <p class="mb-4">We trust that you have settled back into the new year and wish you all the best for 2026.</p>
+      <p class="mb-4">Last year was very busy for the SA Jesters, particularly with both incoming and outgoing international tours. This year we settle back into a more normal pattern of local fixtures.</p>
+      <p class="mb-4">We would like to say a big thank you to all the regions that so generously went out of their way to accommodate and entertain the visiting UK Jesters. The tour was a great success.</p>
+      <p class="mb-4">We are delighted to welcome both Zimbabwe and White River back into the Jesters fold after a long absence. We look forward to rekindling the special relationships that exist with these two regions and thank Jeff Fenwick and Tom Mullins for the roles that they have played.</p>
+      <p class="mb-4">Squash is also on the up in the Southern Cape with JP Britz at the helm and we look forward to establishing a community there. Watch out for future SA Champions coming out of this area!!</p>
+      <p class="mb-4">Over the Christmas period we sadly had to report on the passing away of two legendary Jesters in JP van Niekerk and David Quail. Both of these men made invaluable contributions to squash in this country and we convey our sincere condolences to their families.</p>
+      <p class="mb-4">It is always great to see Jesters kit worn around the country and it is now made a whole lot easier for those that are the odd ones out. Cheyna Wood has a great range of mens and ladies clothing available and it is as easy as ordering online for delivery to your home. Please visit her website <a href="https://www.cheynadot.co.za" class="text-cambridge underline font-bold" target="_blank">www.cheynadot.co.za</a> and click on club merchandise followed by Jesters Club.</p>
+      <p class="mb-4">An exciting new initiative is the creation of a new Squash Africa Jesters website. Mike Melvill has been leading the charge on this and we hope to soon be able to launch it to the Jesters community.</p>
+      <p class="mb-4">Although still in its infancy we are moving towards establishing an annual national Jesters weekend. Mike Short has been instrumental in getting this going. On the back of weekends held in Maritzburg and Joburg over the last two years we now move across to Durban this year and look forward to steadily growing the number of regions participating in this weekend.</p>
+      <p class="mb-4">A reminder of the Jesters Centenary in 2028. It is still some way away but it will no doubt be a big occasion and is worth bearing in mind for your future planning. The event will take place in the UK.</p>
+    `
+  },
+  {
     id: 1,
     title: "Annual Report 2024 - 2025",
     date: "2025-10-14",
@@ -106,7 +125,7 @@ export const INITIAL_NEWS: NewsItem[] = [
 
       <p class="mb-4">The annual Strawson-Vaughan evening with its matches and dinner at Queen's followed in October, with a full house of all the sports, shapes, sizes and ages being present. Another highlight of our season was Peter Chalk's annual Jesters Squash tournament (the replacement of the old Amateur championships) at the RAC in January, expertly run by Tim Garner; a wonderful advert for Men’s and Ladies squash played in true Jesters spirit. Our annual dinner at our traditional home the RAC in March was a delightful evening at which we were lucky enough to have as our guest speaker Jim Zug, the doyen of the US Jesters, who entertained us royally with memories of the history of the US Branch. The Jester of the Year trophy was awarded that night to Henry Prideaux in recognition of his selfless contribution over so many years of organising the Squash fixture list.</p>
       
-      <p class="mb-4">This year we said goodbye as committee members to Henry Prideaux now replaced as squash fixtures secretary by Owen Riddall, to Rich Green now replaced as Army Rep by Phil Marsh, to Tony Rackham replaced as Navy Rep by Chris Hobley and most sadly to the late Bruce Burnett who died unexpectedly earlier this year (having served on the committee for many years in various roles). Our grateful thanks go to all of them for their hard work and contributions over the years, whilst our thoughts are with Bruce's widow Chrissie. We also welcome on to the committee Roy Martins to help Tim Edwards with padel.</p>
+      <p class="mb-4">This year we said goodbye as committee members to Henry Prideaux now replaced as squash fixtures secretary by Owen Riddall, to Rich General now replaced as Army Rep by Phil Marsh, to Tony Rackham replaced as Navy Rep by Chris Hobley and most sadly to the late Bruce Burnett who died unexpectedly earlier this year (having served on the committee for many years in various roles). Our grateful thanks go to all of them for their hard work and contributions over the years, whilst our thoughts are with Bruce's widow Chrissie. We also welcome on to the committee Roy Martins to help Tim Edwards with padel.</p>
       
       <p class="mb-4">As you may recall, we are looking forward to celebrating our Centenary in 2028 and intend to start these celebrations with a weekend in Cambridge from Friday 8th to Sunday 10th September, with various activities (including some golf and an event at Northfields) in the following week culminating in a special dinner at the RAC on Friday 15 September. Distant as this may seem, time flies so do please make a note of these dates in your diaries.</p>
       

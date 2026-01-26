@@ -4,48 +4,47 @@ import { Calendar, MapPin, User, Globe } from 'lucide-react';
 export const Fixtures: React.FC = () => {
   const schedule = [
     {
-      month: 'January',
-      events: [
-        { name: 'Match Managers Evening', venue: 'CCJ', organiser: 'Benj Hunt' }
-      ]
-    },
-    {
       month: 'February',
       events: [
+        { name: "Match Manager's Evening", venue: 'CCJ', organiser: 'Benj Hunt' },
         { name: 'Parkview', venue: 'Parkview', organiser: 'Vince Olley' },
         { name: 'Padel', venue: 'CCJ Woodmead', organiser: 'Garth van Rensburg' },
-        { name: 'Squash Doubles (Silvers vs Plastics)', venue: 'CCJ', organiser: 'Paul Barrow' }
+        { name: 'Padel vs Sultans', venue: 'CCJ Woodmead', organiser: 'Marieta Boshoff' }
       ]
     },
     {
         month: 'March',
         events: [
-            { name: 'KES', venue: 'CCJ', organiser: 'Garrick Deutschman' },
+            { name: 'Squash vs KES', venue: 'CCJ', organiser: 'Garrick Deutschman' },
+            { name: 'Squash Doubles (Silvers vs Plastics)', venue: 'CCJ', organiser: 'Paul Barrow' },
             { name: 'Padel (Silvers vs Plastics)', venue: 'Ethel Gray', organiser: 'Benj Hunt' },
-            { name: 'Egoli Squash', venue: 'CCJ', organiser: 'Shaun Wormington' }
+            { name: 'Squash vs Egoli Squash', venue: 'CCJ', organiser: 'Shaun Wormington' }
         ]
     },
     {
         month: 'April',
         events: [
             { name: 'Squash vs Bryanston Sports Club', venue: 'BSC', organiser: 'Shaun Wormington' },
-            { name: 'Padel', venue: 'CCJ', organiser: 'Garth van Rensburg' }
+            { name: 'Padel', venue: 'CCJ', organiser: 'Garth van Rensburg' },
+            { name: 'Squash vs Alberton', venue: 'Alberton', organiser: 'Digsy Venter' },
+            { name: 'Racketball Day', venue: 'CCJ', organiser: 'Garrick Deutschman' }
         ]
     },
     {
         month: 'May',
         events: [
-            { name: 'Hundred Club Doubles Squash', venue: 'CCJ', organiser: 'Mike Wood' },
-            { name: "Grumpy's Bell Tournament", venue: 'CCJ', organiser: 'Benj Hunt / Grumpy' }
+            { name: 'Hundred Club Doubles Squash', venue: 'CCJ', organiser: 'Chris Holden' },
+            { name: "Grumpy's Bell Tournament", venue: 'CCJ', organiser: 'Benj Hunt / Grumpy' },
+            { name: "Padel followed by lunch at Wally B's Pub", venue: 'The South', organiser: 'Digsy Venter' },
+            { name: 'Padel', venue: 'Greek Sporting Club', organiser: 'Marios Conidaris' }
         ]
     },
     {
         month: 'June',
         events: [
-            { name: 'Squash vs Gauteng U19', venue: 'tbc', organiser: 'Mike Melvill' },
-            { name: 'Padel', venue: 'CCJ', organiser: 'Marieta Boshof' },
-            { name: 'Padel', venue: 'Greek Sporting Club', organiser: 'Marios Conidaris' },
-            { name: 'SA Squash (Squash Doubles)', venue: 'CCJ', organiser: 'Christo Potgieter' },
+            { name: 'Squash vs Squash SA', venue: 'CCJ', organiser: 'Ben Hunt' },
+            { name: 'Squash vs Chamber Exciles', venue: 'Chamber Exciles', organiser: 'Lyal White' },
+            { name: 'Squash vs Jarvis Gauteng Ladies', venue: 'CCJ', organiser: 'Richard Saayman' },
             { name: 'White River Jesters Sports Weekend', venue: 'CCJ', organiser: 'Paul Barrow' }
         ]
     },
@@ -54,40 +53,42 @@ export const Fixtures: React.FC = () => {
         events: [
             { name: 'Padel vs Pirates', venue: 'Pirates', organiser: 'Lloyde Hanson' },
             { name: 'Squash Doubles', venue: 'CCJ', organiser: 'Mike Wood' },
-            { name: 'Jesters Golf Day', venue: 'Woodmead', organiser: 'Paul Barrow' }
+            { name: 'Jesters Golf Day', venue: 'Woodmead', organiser: 'Paul Barrow' },
+            { name: 'Zimbabwe Tour', venue: 'Zim', organiser: 'Pat Kekewich' }
         ]
     },
     {
         month: 'August',
         events: [
             { name: 'Sports Day', venue: 'CCJ Auckland Park', organiser: 'Pat Kekewich' },
-            { name: 'Squash vs Country Club Johannesburg', venue: 'CCJ', organiser: 'Shaun Wormington' },
+            { name: 'Squash vs Country Club Johannesburg', venue: 'CCJ', organiser: 'Shannon Nortier' },
             { name: 'Padel', venue: 'Ethel Gray', organiser: 'Paul Barrow' },
-            { name: 'Durban Jesters Sports Weekend', venue: 'CCJ', organiser: 'Garth van Rensburg' }
+            { name: 'Durban Jesters Sports Weekend', venue: 'CCJ', organiser: 'Steve Clarke' }
         ]
     },
     {
         month: 'September',
         events: [
             { name: 'Dave Short Tournament', venue: 'Midlands', organiser: 'Shaun Wormington' },
-            { name: 'Squash vs St Stithians', venue: 'SS', organiser: 'Tim Steenhoff' },
-            { name: 'Squash vs St John\'s', venue: 'SJ', organiser: 'Paul Barrow' },
+            { name: 'Squash vs St Stithians', venue: 'SS', organiser: 'Shaun Wormington' },
+            { name: "Squash vs St John's", venue: 'SJ', organiser: 'Paul Barrow' },
             { name: 'Padel', venue: 'CCJ', organiser: 'JP du Toit' }
         ]
     },
     {
         month: 'October',
         events: [
-            { name: 'AGM / Annual Dinner', venue: 'CCJ', organiser: 'Marios Conidaris' },
-            { name: 'Squash vs St Mary\'s', venue: 'CCJ', organiser: 'Tayla Dunn' },
-            { name: 'Squash Jesters League Players vs The Rest', venue: 'CCJ', organiser: 'Christo Potgieter' }
+            { name: "Squash vs St Mary's", venue: 'CCJ', organiser: 'Tayla Dunn' },
+            { name: 'Squash Jesters League Players vs The Rest', venue: 'CCJ', organiser: 'Christo Potgieter' },
+            { name: 'Mielieland Squash Tournament', venue: 'Potch', organiser: 'Tristan Bagshaw' }
         ]
     },
     {
         month: 'November',
         events: [
             { name: 'Padel vs James & Ethel Gray', venue: 'Ethel Gray', organiser: 'Paul Barrow' },
-            { name: 'Year End Squash', venue: 'CCJ', organiser: 'Benj Hunt' }
+            { name: 'Year End Squash', venue: 'CCJ', organiser: 'Benj Hunt' },
+            { name: 'AGM / Annual Dinner', venue: 'CCJ', organiser: 'Marios Conidaris' }
         ]
     }
   ];
@@ -105,7 +106,7 @@ export const Fixtures: React.FC = () => {
             </div>
         </div>
 
-        {/* Existing Monthly Schedule */}
+        {/* Updated Monthly Schedule */}
         <div className="space-y-8">
             {schedule.map((monthBlock, idx) => (
                 <div key={idx} className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">

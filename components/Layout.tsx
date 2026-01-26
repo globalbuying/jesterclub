@@ -32,7 +32,7 @@ export const Layout: React.FC<LayoutProps> = ({
             A members-only club dedicated to the enjoyment of our games.
           </p>
           <p className="text-xs text-gray-600">
-            &copy; {new Date().getFullYear()} The Jesters Club. All rights reserved.
+            &copy; {new Date().getFullYear()} The Jesters Club. All right reserved.
           </p>
         </div>
       </footer>
