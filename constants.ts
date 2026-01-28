@@ -14,7 +14,7 @@ export const COMMITTEE: CommitteeMember[] = [
   { id: 15, name: "Benj Hunt", role: "Member", category: 'Member' },
   
   // Regional
-  { id: 8, name: "Kathy Jackson", role: "Pietermaritzburg", category: 'Regional' },
+  { id: 8, name: "Cathy Jackson", role: "Pietermaritzburg", category: 'Regional' },
   { id: 9, name: "Paul Atkinson", role: "Western Cape", category: 'Regional' },
   { id: 10, name: "Rein Hofmeyr", role: "Southern Cape", category: 'Regional' },
   { id: 11, name: "Bruce Brooker", role: "Eastern Cape", category: 'Regional' },
@@ -137,7 +137,7 @@ export const INITIAL_NEWS: NewsItem[] = [
 
       <h3 class="text-xl font-bold text-oxford mt-6 mb-2">Eton Fives</h3>
       <p class="mb-4"><em>Will Skjott reports:</em> It is a pleasure to be able to report on Jesters Eton Fives following the 2024/2025 season. We had another excellent year and are looking forward to increasing our fixture list in the forthcoming season, amongst them a fixture at the new courts at Holyport. The Eton Fives Jesters have increased their ranks with seven new candidates and I hope they will all be warmly welcomed when you see them on the Court. The EFA centenary celebrations were a great success and culminated in World Fives Day which saw people playing on courts around the world.</p>
-      <p class="mb-4">This year the Fives community lost two longstanding Eton Fives Jesters, men epitomising the spirit of amateur sport and the Jesters. John Caudle (elected a Jester in 1983) and Martin Lindsay (1985). We thank Richard Tyler for his assistance in finding new candidates and Joseph Seelig for his words above.</p>
+      <p class="mb-4">This year the Fives community lost two longstanding Eton Fives Jesters, men epitomising the spirit of amateur sport and the Jesters. John Caudle (elected a Jester in 1983) and Martin Lindsay (1985). We thank Richard Tyler for his assistance in find new candidates and Joseph Seelig for his words above.</p>
 
       <h3 class="text-xl font-bold text-oxford mt-6 mb-2">Rugby Fives</h3>
       <p class="mb-4"><em>Ben Hale reports:</em> The Jesters Rugby Fives season started in customary fashion with the keenly contested Strawson-Vaughan fixture against the Rugby Fives Association that surprisingly resulted in a draw... Our following match saw the annual visit to Tonbridge now reinforced with a familiar face, former Jesters Rugby Fives game secretary James Tilston. We took our annual tour north of the border to Edinburgh in January with sixty players representing the Jesters over the weekend in matches against our host schools Edinburgh Academy, Fettes College, Loretto School, Merchiston Castle School and Strathallan School.</p>
