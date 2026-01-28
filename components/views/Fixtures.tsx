@@ -240,12 +240,6 @@ export const Fixtures: React.FC = () => {
                 </div>
             </div>
         </div>
-
-        <div className="mt-12 text-center">
-            <button className="px-8 py-3 border border-oxford text-oxford hover:bg-oxford hover:text-white transition-colors font-serif font-bold">
-                Download Calendar (.PDF)
-            </button>
-        </div>
     </div>
   );
 };
