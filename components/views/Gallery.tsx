@@ -48,15 +48,15 @@ export const Gallery: React.FC = () => {
     },
     {
       id: 7,
-      url: "https://www.thejestersclub.org//wp-content/uploads/2014/08/JP35-19320301-1932-Cambridge-Univ-Fives-Team-Jock-Burnet-second-from-right.jpg",
-      title: "1932 Cambridge Fives",
-      description: "Jock Burnet second from the right."
-    },
-    {
-      id: 8,
       url: "https://www.thejestersclub.org/wp-content/uploads/2016/08/eton_new-980x419.jpg",
       title: "Eton Fives",
       description: "The game of Eton Fives."
+    },
+    {
+      id: 8,
+      url: "https://www.thejestersclub.org//wp-content/uploads/2014/08/JP35-19320301-1932-Cambridge-Univ-Fives-Team-Jock-Burnet-second-from-right.jpg",
+      title: "1932 Cambridge Fives",
+      description: "Jock Burnet second from the right."
     },
     {
       id: 9,
