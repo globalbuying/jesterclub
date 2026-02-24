@@ -87,6 +87,30 @@ export const MEMBERS: Member[] = [
 
 export const INITIAL_NEWS: NewsItem[] = [
   {
+    id: 5,
+    title: "Simon Malone Obituary",
+    date: "2026-02-24",
+    author: "Paul Barrow",
+    content: `
+      <p class="mb-4">Dear Jesters,</p>
+      <p class="mb-4">It is with great sadness that we advise of the passing away of Simon Malone on 22 February.</p>
+      <p class="mb-4">Simon had been battling cancer for some time and it was a blessing when he finally passed away peacefully at home, aged 82.</p>
+      <p class="mb-4">Simon will be remembered by all of us for his infectious enthusiasm as well as his wonderful sense of humour. His outlook on life was always positive and he had an amazing ability to raise the mood in the room.</p>
+      <p class="mb-4">Simon was a loyal KES old boy and enthusiastically followed their success on the sports field. He was a very generous benefactor of the school and there are many that have gone through the school thanks to the scholarships that he offered to under privileged boys.</p>
+      <p class="mb-4">He led a very successful business career. Having qualified at Wits as a mining engineer, Simon spent a few years in Canada learning his trade. Shortly after his return he established Metorex and was CEO of the business for many years. He took the company from being a fledgling business to becoming a highly successful listed mining company. He commanded great respect in the industry.</p>
+      <p class="mb-4">Simon had a great passion for squash and played the game well into his 60’s. He was a crafty left hander and his guile became even more apparent on the doubles court. He invented the “Gotcha” as he got older, which was the squash version of the “Mulligan” and entitled him to call for a point to be replayed. Much to the frustration of his opponents!!</p>
+      <p class="mb-4">His squash days started at Old Edwardians, for whom he played league for many years. He would also go on to represent Transvaal at Jarvis Cup. Simon was also a great administrator and was Chairman of SA Squash for a number of years, during which time the sport was on a real high in the country.</p>
+      <p class="mb-4">It was however the social side of the sport that really appealed to him and there was always a chirp or two both before and after the game. He endeared himself to everyone in the squash community and he epitomized what being a Jester is all about.</p>
+      <p class="mb-4">Having been made a Jester in 1965 he became actively involved in the club. He toured both the US and the UK and hosted many incoming tourists, creating lifelong friends in the process.</p>
+      <p class="mb-4">Simon became Chairman of the SA Jesters in 2003 and held this position until 2010. In his later days he remained actively involved and even made last year’s Match Managers evening, where he couldn’t give up the opportunity to tell one of his famous jokes. Simon was made a Life Member of Jesters SA in 2025.</p>
+      <p class="mb-4">Simon will be missed by all of us. He had an amazing ability to transcend all age groups and left an indelible impression on so many.</p>
+      <p class="mb-4">Our thoughts at this time are with Iona, Kirsty and Ian.</p>
+      <p class="mb-4">A legend might be gone but his legacy will life on for many years.</p>
+      <p class="mb-4">Rest in peace Simon.</p>
+      <p class="mb-4">Regards<br/>Paul Barrow</p>
+    `
+  },
+  {
     id: 4,
     title: "A New Year's Message to the South African Jesters",
     date: "2026-01-20",
