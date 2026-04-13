@@ -164,41 +164,25 @@ export const Fixtures: React.FC = () => {
                       </thead>
                       <tbody className="text-sm text-gray-700">
                         <tr className="hover:bg-blue-50/20 transition-colors">
-                          <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2024</td>
-                          <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">S. Africa</td>
-                          <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">U.K.</td>
-                          <td className="p-3 border border-gray-200"></td>
-                        </tr>
-                        <tr className="hover:bg-blue-50/20 transition-colors bg-gray-50/50">
-                          <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2025</td>
-                          <td className="p-3 border border-gray-200">S. Africa</td>
-                          <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">U.K.</td>
-                          <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">U.S.A.</td>
-                        </tr>
-                        <tr className="hover:bg-blue-50/20 transition-colors">
                           <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2026</td>
                           <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200">Canada</td>
                           <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">S. Africa</td>
                           <td className="p-3 border border-gray-200"></td>
+                          <td className="p-3 border border-gray-200">USA</td>
                         </tr>
                         <tr className="hover:bg-blue-50/20 transition-colors bg-gray-50/50">
                           <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2027</td>
                           <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">U.S.A.</td>
-                          <td className="p-3 border border-gray-200"></td>
+                          <td className="p-3 border border-gray-200">USA</td>
+                          <td className="p-3 border border-gray-200">S Africa</td>
                           <td className="p-3 border border-gray-200"></td>
                         </tr>
                         <tr className="hover:bg-blue-50/20 transition-colors">
                           <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2028</td>
                           <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200"></td>
+                          <td className="p-3 border border-gray-200">100th Jubilee</td>
                           <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200"></td>
@@ -206,31 +190,23 @@ export const Fixtures: React.FC = () => {
                         <tr className="hover:bg-blue-50/20 transition-colors bg-gray-50/50">
                           <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2029</td>
                           <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">Australia<br/><span className="text-xs italic text-gray-500">100th all welcome</span></td>
+                          <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200">Canada</td>
-                          <td className="p-3 border border-gray-200">U.K.</td>
+                          <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200"></td>
                         </tr>
                         <tr className="hover:bg-blue-50/20 transition-colors">
                           <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2030</td>
-                          <td className="p-3 border border-gray-200">U.K.</td>
-                          <td className="p-3 border border-gray-200">U.S.A.</td>
                           <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">U.K.</td>
+                          <td className="p-3 border border-gray-200"></td>
+                          <td className="p-3 border border-gray-200">USA</td>
+                          <td className="p-3 border border-gray-200"></td>
                         </tr>
                         <tr className="hover:bg-blue-50/20 transition-colors bg-gray-50/50">
                           <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2031</td>
-                          <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200"></td>
-                          <td className="p-3 border border-gray-200">U.K.</td>
-                          <td className="p-3 border border-gray-200">S. Africa</td>
-                          <td className="p-3 border border-gray-200"></td>
-                        </tr>
-                        <tr className="hover:bg-blue-50/20 transition-colors">
-                          <td className="p-3 border border-gray-200 font-bold bg-gray-50 text-oxford">2032</td>
-                          <td className="p-3 border border-gray-200">S. Africa</td>
-                          <td className="p-3 border border-gray-200"></td>
+                          <td className="p-3 border border-gray-200">Australia</td>
+                          <td className="p-3 border border-gray-200">USA</td>
                           <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200"></td>
                           <td className="p-3 border border-gray-200"></td>
