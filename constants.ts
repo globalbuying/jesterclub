@@ -15,7 +15,7 @@ export const COMMITTEE: CommitteeMember[] = [
   
   // Regional
   { id: 8, name: "Cathy Jackson", role: "Pietermaritzburg", category: 'Regional' },
-  { id: 9, name: "Paul Atkinson", role: "Western Cape", category: 'Regional' },
+  { id: 9, name: "Duncan de Groot", role: "Western Cape", category: 'Regional' },
   { id: 10, name: "Rein Hofmeyr", role: "Southern Cape", category: 'Regional' },
   { id: 11, name: "Bruce Brooker", role: "Eastern Cape", category: 'Regional' },
   { id: 12, name: "Steve Clark", role: "Durban", category: 'Regional' },
