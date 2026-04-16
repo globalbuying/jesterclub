@@ -12,31 +12,31 @@ export const Gallery: React.FC = () => {
   const items: GalleryItem[] = [
     {
       id: 1,
-      url: "https://melvill.net/wp-content/uploads/2025/12/dinner.jpg",
+      url: "https://res.cloudinary.com/drkhlas0s/image/upload/v1776256001/dinner75_ww9zd7.png",
       title: "First Jesters' Dinner (1929)",
       description: "A photograph of the first Jesters’ dinner held at Pinoli’s on the 16th December 1929. Jock Burnet is on the far side of the table closest to the camera. Going clockwise from Jock: The Dean of Windsor, H.S.C. Killick, Sir Leslie Wilson, J.W.Webb-Jones, G.I.Palmer, P.D.Franks, G.A.Campbell, H.R.R.Readhead"
     },
     {
       id: 2,
-      url: "https://melvill.net/wp-content/uploads/2025/12/chair.png",
+      url: "https://res.cloudinary.com/drkhlas0s/image/upload/v1776256001/chair_p5tllk.png",
       title: "Jock Burnet",
       description: "Chris Campbell, then President of The Jesters Club, presenting Jock Burnet with the Jesters trophy on the occasion of the Jesters 60th Anniversary in 1989. Sir Lawrence Verney, then Chairman, is in the background"
     },
     {
       id: 3,
-      url: "https://melvill.net/wp-content/uploads/2025/12/bow-tie.jpg",
+      url: "https://res.cloudinary.com/drkhlas0s/image/upload/v1776256001/bow_tie_pnuyzm.jpg",
       title: "South African Annual Dinner",
       description: "at the CCJ in the early '60s"
     },
     {
       id: 4,
-      url: "https://melvill.net/wp-content/uploads/2025/12/1958-tour.jpg",
+      url: "https://res.cloudinary.com/drkhlas0s/image/upload/v1776256001/1958_tour_fgy75c.jpg",
       title: "1958 Tour",
       description: "The UK Jesters tour to South Africa and Rhodesia in 1958."
     },
     {
       id: 5,
-      url: "https://melvill.net/wp-content/uploads/2025/12/dinner75.png",
+      url: "https://res.cloudinary.com/drkhlas0s/image/upload/v1776256001/dinner75_ww9zd7.png",
       title: "75th Jubilee",
       description: "75th Jubilee, Cambridge, England September 2004"
     },

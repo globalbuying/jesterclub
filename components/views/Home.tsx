@@ -67,7 +67,7 @@ export const Home: React.FC = () => {
             <span className="text-white font-serif text-3xl font-bold tracking-widest transform translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">SQUASH</span>
           </div>
         </div>
-        <div className="bg-[url('./images/racquets.png')] bg-cover bg-center h-full relative group cursor-pointer overflow-hidden">
+        <div className="bg-[url('https://res.cloudinary.com/drkhlas0s/image/upload/v1776256001/racquets_qjcy0n.png')] bg-cover bg-center h-full relative group cursor-pointer overflow-hidden">
            <div className="absolute inset-0 bg-oxford/60 group-hover:bg-oxford/30 transition-all duration-500 flex items-center justify-center">
             <span className="text-white font-serif text-3xl font-bold tracking-widest transform translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">REAL TENNIS</span>
           </div>
